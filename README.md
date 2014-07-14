@@ -1,4 +1,4 @@
-MCPanel
+SadPanel
 =======
 
 A control panel
