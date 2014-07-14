@@ -1,5 +1,6 @@
 #SAD Panel
-A control panel for everynyan~
+A Minecraft server control panel
+***
 
   *Server and client  : frash23*  
   *WHMCS Intergration : ecasmb*
