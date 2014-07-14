@@ -1,0 +1,28 @@
+lastAccountName: EMIL_the_CLAUS
+timestamps:
+  login: 1405156954452
+  lastteleport: 1405157271656
+  logout: 1405157548425
+ipAddress: 87.56.58.6
+lastlocation:
+  world: world
+  x: -146.69671772853607
+  y: 72.66860207113224
+  z: 253.46157861398362
+  yaw: 263.40045
+  pitch: 89.7
+homes:
+  home:
+    world: world
+    x: -149.39753842714947
+    y: 81.0
+    z: 253.54499861716764
+    yaw: 17.70044
+    pitch: 88.7999
+logoutlocation:
+  world: world
+  x: -146.45022286218654
+  y: 71.0
+  z: 255.69999998807907
+  yaw: 263.40045
+  pitch: 89.7

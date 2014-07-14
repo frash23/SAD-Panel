@@ -1,0 +1,141 @@
+[class^="bglyph-"]		{width:16px;height:16px;background:url(Bglyphs.png);display:inline-block}
+.bglyph-glass			{background-position:   0       0}
+.bglyph-music			{background-position: -16px     0}
+.bglyph-search			{background-position: -32px     0}
+.bglyph-envelope		{background-position: -48px     0}
+.bglyph-heart			{background-position: -64px     0}
+.bglyph-star			{background-position: -80px     0}
+.bglyph-star_empty		{background-position: -96px     0}
+.bglyph-user			{background-position:-112px     0}
+.bglyph-film			{background-position:-128px     0}
+.bglyph-squares_four		{background-position:-144px     0}
+.bglyph-squares_nine		{background-position:-160px     0}
+.bglyph-squares_table		{background-position:-176px     0}
+.bglyph-accept			{background-position:-192px     0}
+.bglyph-deny			{background-position:-208px     0}
+.bglyph-zoom_in			{background-position:-224px     0}
+.bglyph-zoom_out		{background-position:-240px     0}
+.bglyph-off			{background-position:-256px     0}
+.bglyph-signal			{background-position:-272px     0}
+.bglyph-cog 			{background-position:-288px     0}
+.bglyph-trash			{background-position:-304px     0}
+.bglyph-home			{background-position:   0   -16px}
+.bglyph-file			{background-position: -16px -16px}
+.bglyph-time			{background-position: -32px -16px}
+.bglyph-road			{background-position: -48px -16px}
+.bglyph-save_to_disk		{background-position: -64px -16px}
+.bglyph-download		{background-position: -80px -16px}
+.bglyph-upload			{background-position: -96px -16px}
+.bglyph-inbox			{background-position:-112px -16px}
+.bglyph-play_circle		{background-position:-128px -16px}
+.bglyph-repeat_circle		{background-position:-144px -16px}
+.bglyph-refresh_circle		{background-position:-160px -16px}
+.bglyph-windowed_list		{background-position:-176px -16px}
+.bglyph-lock			{background-position:-192px -16px}
+.bglyph-flag			{background-position:-208px -16px}
+.bglyph-headphones		{background-position:-224px -16px}
+.bglyph-volume_off		{background-position:-240px -16px}
+.bglyph-volume_down		{background-position:-256px -16px}
+.bglyph-volume_up		{background-position:-272px -16px}
+.bglyph-qrcode			{background-position:-288px -16px}
+.bglyph-barcode			{background-position:-304px -16px}
+.bglyph-tag			{background-position:   0   -32px}
+.bglyph-tags			{background-position: -16px -32px}
+.bglyph-book			{background-position: -32px -32px}
+.bglyph-bookmark		{background-position: -48px -32px}
+.bglyph-print			{background-position: -64px -32px}
+.bglyph-camera			{background-position: -80px -32px}
+.bglyph-font			{background-position: -96px -32px}
+.bglyph-bold			{background-position:-112px -32px}
+.bglyph-italic			{background-position:-128px -32px}
+.bglyph-text_height		{background-position:-144px -32px}
+.bglyph-text_width		{background-position:-160px -32px}
+.bglyph-align_left		{background-position:-176px -32px}
+.bglyph-align_center		{background-position:-192px -32px}
+.bglyph-align_right		{background-position:-208px -32px}
+.bglyph-align_justify		{background-position:-224px -32px}
+.bglyph-compact_list		{background-position:-240px -32px}
+.bglyph-indent_left		{background-position:-256px -32px}
+.bglyph-indent_right		{background-position:-272px -32px}
+.bglyph-facetime-video		{background-position:-288px -32px}
+.bglyph-picture			{background-position:-304px -32px}
+.bglyph-pencil			{background-position:   0   -48px}
+.bglyph-map_marker		{background-position: -16px -48px}
+.bglyph-contrast		{background-position: -32px -48px}
+.bglyph-tint			{background-position: -48px -48px}
+.bglyph-edit			{background-position: -64px -48px}
+.bglyph-checkbox_empty		{background-position: -80px -48px}
+.bglyph-checkbox_checked	{background-position: -96px -48px}
+.bglyph-move			{background-position:-112px -48px}
+.bglyph-step_backward		{background-position:-128px -48px}
+.bglyph-step_fast_backward	{background-position:-144px -48px}
+.bglyph-back			{background-position:-160px -48px}
+.bglyph-play			{background-position:-176px -48px}
+.bglyph-pause			{background-position:-192px -48px}
+.bglyph-stop			{background-position:-208px -48px}
+.bglyph-forward			{background-position:-224px -48px}
+.bglyph-step_fast_forward	{background-position:-240px -48px}
+.bglyph-step_forward		{background-position:-256px -48px}
+.bglyph-eject			{background-position:-272px -48px}
+.bglyph-chevron_left		{background-position:-288px -48px}
+.bglyph-chevron_right		{background-position:-304px -48px}
+.bglyph-plus_sign		{background-position:   0   -64px}
+.bglyph-minus_sign		{background-position: -16px -64px}
+.bglyph-remove_sign		{background-position: -32px -64px}
+.bglyph-ok_sign			{background-position: -48px -64px}
+.bglyph-question_sign		{background-position: -64px -64px}
+.bglyph-info_sign		{background-position: -80px -64px}
+.bglyph-screenshot		{background-position: -96px -64px}
+.bglyph-remove_circle		{background-position:-112px -64px}
+.bglyph-ok_circle		{background-position:-128px -64px}
+.bglyph-ban_circle		{background-position:-144px -64px}
+.bglyph-arrow_left		{background-position:-160px -64px}
+.bglyph-arrow_right		{background-position:-176px -64px}
+.bglyph-arrow_up		{background-position:-192px -64px}
+.bglyph-arrow_down		{background-position:-208px -64px}
+.bglyph-share			{background-position:-224px -64px}
+.bglyph-resize_full		{background-position:-240px -64px}
+.bglyph-resize_small		{background-position:-256px -64px}
+.bglyph-plus			{background-position:-272px -64px}
+.bglyph-minus			{background-position:-288px -64px}
+.bglyph-asterisk		{background-position:-304px -64px}
+.bglyph-exclamation_sign	{background-position:   0   -80px}
+.bglyph-gift			{background-position: -16px -80px}
+.bglyph-leaf			{background-position: -32px -80px}
+.bglyph-fire			{background-position: -48px -80px}
+.bglyph-eye_open		{background-position: -64px -80px}
+.bglyph-eye_close		{background-position: -80px -80px}
+.bglyph-warning_sign		{background-position: -96px -80px}
+.bglyph-plane			{background-position:-112px -80px}
+.bglyph-calendar		{background-position:-128px -80px}
+.bglyph-random			{background-position:-144px -80px}
+.bglyph-comment			{background-position:-160px -80px}
+.bglyph-magnet			{background-position:-176px -80px}
+.bglyph-chevron_up		{background-position:-192px -80px}
+.bglyph-chevron_down		{background-position:-208px -80px}
+.bglyph-retweet			{background-position:-224px -80px}
+.bglyph-shopping_cart		{background-position:-240px -80px}
+.bglyph-folder_closed		{background-position:-256px -80px}
+.bglyph-folder_open		{background-position:-272px -80px}
+.bglyph-resize_vertical		{background-position:-288px -80px}
+.bglyph-resize_horizontal	{background-position:-304px -80px}
+.bglyph-hdd			{background-position:   0   -96px}
+.bglyph-bullhorn		{background-position: -16px -96px}
+.bglyph-bell			{background-position: -32px -96px}
+.bglyph-certificate		{background-position: -48px -96px}
+.bglyph-thumbs_up		{background-position: -64px -96px}
+.bglyph-thumbs_down		{background-position: -80px -96px}
+.bglyph-hand_right		{background-position: -96px -96px}
+.bglyph-hand_left		{background-position:-112px -96px}
+.bglyph-hand_up			{background-position:-128px -96px}
+.bglyph-hand_down		{background-position:-144px -96px}
+.bglyph-circle_arrow_right	{background-position:-160px -96px}
+.bglyph-circle_arrow_left	{background-position:-176px -96px}
+.bglyph-circle_arrow_up		{background-position:-192px -96px}
+.bglyph-circle_arrow_down	{background-position:-208px -96px}
+.bglyph-globe			{background-position:-224px -96px}
+.bglyph-wrench			{background-position:-240px -96px}
+.bglyph-tasks			{background-position:-256px -96px}
+.bglyph-filter			{background-position:-272px -96px}
+.bglyph-briefcase		{background-position:-288px -96px}
+.bglyph-fullscreen		{background-position:-304px -96px}

@@ -1,0 +1,246 @@
+[05:10:43] [User Authenticator #4/INFO]: UUID of player jordan2312 is 29f130ef-be46-4c07-b97d-5e62e5e8dbe2
+[05:10:43] [Server thread/INFO]: jordan2312[/151.231.97.234:61362] logged in with entity id 9404 at ([world] -152.5, 69.0, 251.5)
+[05:10:43] [pool-4-thread-1/INFO]: Creating empty config: /home/www/default/projects/Minejoin panel/server/plugins/Essentials/userdata/29f130ef-be46-4c07-b97d-5e62e5e8dbe2.yml
+[05:10:45] [Server thread/INFO]: jordan2312 has just earned the achievement [Taking Inventory]
+[05:11:15] [Server thread/INFO]: jordan2312 issued server command: /help
+[05:11:19] [Server thread/INFO]: jordan2312 issued server command: /help 2
+[05:11:22] [Server thread/INFO]: jordan2312 issued server command: /help 3
+[05:11:25] [Server thread/INFO]: jordan2312 lost connection: Disconnected
+[05:11:25] [Server thread/INFO]: jordan2312 left the game.
+[12:36:03] [User Authenticator #5/INFO]: UUID of player math417a is cc63d307-bf77-4861-be5b-9284e9d482e6
+[12:36:03] [Server thread/INFO]: math417a[/87.56.40.136:55341] logged in with entity id 10270 at ([world] 58.293645752538005, 69.0, 353.367666959096)
+[12:36:09] [Server thread/INFO]: math417a issued server command: /f help
+[12:36:14] [Server thread/INFO]: math417a lost connection: Disconnected
+[12:36:14] [Server thread/INFO]: math417a left the game.
+[13:20:37] [User Authenticator #6/INFO]: UUID of player math417a is cc63d307-bf77-4861-be5b-9284e9d482e6
+[13:20:37] [Server thread/INFO]: math417a[/87.56.40.136:58629] logged in with entity id 10344 at ([world] 52.9044550732232, 70.0, 347.3062199986418)
+[13:23:03] [Server thread/INFO]: math417a hit the ground too hard
+[13:23:18] [Server thread/INFO]: math417a lost connection: Disconnected
+[13:23:18] [Server thread/INFO]: math417a left the game.
+[14:13:00] [User Authenticator #7/INFO]: UUID of player jordan2312 is 29f130ef-be46-4c07-b97d-5e62e5e8dbe2
+[14:13:00] [Server thread/INFO]: jordan2312[/151.231.97.234:49340] logged in with entity id 10769 at ([world] -143.04167082278346, 72.0, 259.31567836387876)
+[14:13:10] [Server thread/INFO]: net.minecraft.util.com.mojang.authlib.GameProfile@4b0764c4[id=<null>,name=jordan2312,properties={},legacy=false] (/151.231.97.234:49298) lost connection: Disconnected
+[14:13:27] [Server thread/INFO]: jordan2312 was slain by Zombie
+[14:13:31] [Server thread/WARN]: jordan2312 moved too quickly! 0.0,1000.419999986887,0.0 (0.0, 1000.419999986887, 0.0)
+[14:13:32] [Server thread/WARN]: jordan2312 moved too quickly! -0.15183480982776132,1000.4983999884129,0.15089312579306124 (0.15183480982776132, 1000.4983999884129, 0.15089312579306124)
+[14:13:59] [Server thread/INFO]: jordan2312 lost connection: Disconnected
+[14:13:59] [Server thread/INFO]: jordan2312 left the game.
+[17:29:40] [Server thread/INFO]: [Server] test
+[17:29:41] [Server thread/INFO]: [Server] test
+[17:29:41] [Server thread/INFO]: [Server] test
+[17:29:41] [Server thread/INFO]: [Server] test
+[17:29:45] [Server thread/INFO]: CONSOLE issued server command: /help 
+[17:29:45] [Server thread/INFO]: To view help from the console, type ?.
+[17:29:49] [Server thread/INFO]: --------- Help: Index ---------------------------
+[17:29:49] [Server thread/INFO]: Use /help [n] to get page n of help.
+[17:29:49] [Server thread/INFO]: Aliases: Lists command aliases
+[17:29:49] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[17:29:49] [Server thread/INFO]: Essentials: All commands for Essentials
+[17:29:49] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[17:29:49] [Server thread/INFO]: /achievement: Gives the specified player an achievement or changes a statistic value. Use '*' to give all achievements.
+[17:29:49] [Server thread/INFO]: /afk: Marks you as away-from-keyboard.
+[17:29:49] [Server thread/INFO]: /antioch: A little surprise for operators.
+[17:29:49] [Server thread/INFO]: /back: Teleports you to your location prior to tp/spawn/warp.
+[17:29:49] [Server thread/INFO]: /backup: Runs the backup if configured.
+[17:29:49] [Server thread/INFO]: /balance: States the current balance of a player.
+[17:29:49] [Server thread/INFO]: /balancetop: Gets the top balance values.
+[17:29:49] [Server thread/INFO]: /ban: Bans a player.
+[17:29:49] [Server thread/INFO]: /ban-ip: Prevents the specified IP address from using this server
+[17:29:49] [Server thread/INFO]: /banip: Bans an IP address.
+[17:29:49] [Server thread/INFO]: /banlist: View all players banned from this server
+[17:29:49] [Server thread/INFO]: /bigtree: Spawn a big tree where you are looking.
+[17:29:49] [Server thread/INFO]: /book: Allows reopening and editing of sealed books.
+[17:29:49] [Server thread/INFO]: /break: Breaks the block you are looking at.
+[17:29:49] [Server thread/INFO]: /broadcast: Broadcasts a message to the entire server.
+[17:29:49] [Server thread/INFO]: /bukkit:ban: Prevents the specified player from using this server
+[17:29:49] [Server thread/INFO]: /bukkit:clear: Clears the player's inventory. Can specify item and data filters too.
+[17:29:49] [Server thread/INFO]: /bukkit:enchant: Adds enchantments to the item the player is currently holding. Specify 0 for the level to remove an enchantment. Specify force to ignore normal enchantment restrictions
+[17:29:49] [Server thread/INFO]: /bukkit:gamemode: Changes the player to a specific game mode
+[17:29:49] [Server thread/INFO]: /bukkit:give: Gives the specified player a certain amount of items
+[17:29:49] [Server thread/INFO]: /bukkit:help: Shows the help menu
+[17:29:49] [Server thread/INFO]: /bukkit:kick: Removes the specified player from the server
+[17:29:49] [Server thread/INFO]: /bukkit:kill: Commits suicide, only usable as a player
+[17:29:49] [Server thread/INFO]: /bukkit:list: Lists all online players
+[17:29:49] [Server thread/INFO]: /bukkit:me: Performs the specified action in chat
+[17:29:49] [Server thread/INFO]: /bukkit:pardon: Allows the specified player to use this server
+[17:29:49] [Server thread/INFO]: /bukkit:tell: Sends a private message to the given player
+[17:29:49] [Server thread/INFO]: /bukkit:time: Changes the time on each world
+[17:29:49] [Server thread/INFO]: /bukkit:tp: Teleports the given player (or yourself) to another player or coordinates
+[17:29:49] [Server thread/INFO]: /bukkit:weather: Changes the weather
+[17:29:49] [Server thread/INFO]: /bukkit:xp: Gives the specified player a certain amount of experience. Specify <amount>L to give levels instead, with a negative amount resulting in taking levels.
+[17:29:49] [Server thread/INFO]: /burn: Set a player on fire.
+[17:29:49] [Server thread/INFO]: /clearinventory: Clear all items in your inventory.
+[17:29:49] [Server thread/INFO]: /compass: Describes your current bearing.
+[17:29:49] [Server thread/INFO]: /condense: Condenses items into a more compact blocks.
+[17:29:49] [Server thread/INFO]: /customtext: Allows you to create custom text commands.
+[17:29:49] [Server thread/INFO]: /defaultgamemode: Set the default gamemode
+[17:29:49] [Server thread/INFO]: /delhome: Removes a home.
+[17:29:49] [Server thread/INFO]: /deljail: Removes a jail.
+[17:29:49] [Server thread/INFO]: /delwarp: Deletes the specified warp.
+[17:29:49] [Server thread/INFO]: /deop: Takes the specified player's operator status
+[17:29:49] [Server thread/INFO]: /depth: States current depth, relative to sea level.
+[17:29:49] [Server thread/INFO]: /difficulty: Sets the game difficulty
+[17:29:49] [Server thread/INFO]: /eco: Manages the server economy.
+[17:29:49] [Server thread/INFO]: /effect: Adds/Removes effects on players
+[17:29:49] [Server thread/INFO]: /enchant: Enchants the item the user is holding.
+[17:29:49] [Server thread/INFO]: /enderchest: Lets you see inside an enderchest.
+[17:29:49] [Server thread/INFO]: /essentials: Reloads essentials.
+[17:29:49] [Server thread/INFO]: /exp: Give, set or look at a players exp.
+[17:29:49] [Server thread/INFO]: /ext: Extinguish players.
+[17:29:49] [Server thread/INFO]: /feed: Satisfy the hunger.
+[17:29:49] [Server thread/INFO]: /fireball: Throw a fireball.
+[17:29:49] [Server thread/INFO]: /firework: Allows you to modify a stack of fireworks.
+[17:29:49] [Server thread/INFO]: /fly: Take off, and soar!
+[17:29:49] [Server thread/INFO]: /gamemode: Change player gamemode.
+[17:29:49] [Server thread/INFO]: /gamerule: Sets a server's game rules
+[17:29:49] [Server thread/INFO]: /gc: Reports memory, uptime and tick info.
+[17:29:49] [Server thread/INFO]: /getpos: Get your current coordinates or those of a player.
+[17:29:49] [Server thread/INFO]: /give: Give a player an item.
+[17:29:49] [Server thread/INFO]: /god: Enables your godly powers.
+[17:29:49] [Server thread/INFO]: /hat: Get some cool new headgear.
+[17:29:49] [Server thread/INFO]: /heal: Heals you or the given player.
+[17:29:49] [Server thread/INFO]: /help: Views a list of available commands.
+[17:29:49] [Server thread/INFO]: /helpop: Message online admins.
+[17:29:49] [Server thread/INFO]: /home: Teleport to your home.
+[17:29:49] [Server thread/INFO]: /ignore: Ignore or unignore other players.
+[17:29:49] [Server thread/INFO]: /info: Shows information set by the server owner.
+[17:29:49] [Server thread/INFO]: /invsee: See the inventory of other players.
+[17:29:49] [Server thread/INFO]: /item: Spawn an item.
+[17:29:49] [Server thread/INFO]: /itemdb: Searches for an item.
+[17:29:49] [Server thread/INFO]: /jails: List all jails.
+[17:29:49] [Server thread/INFO]: /jump: Jumps to the nearest block in the line of sight.
+[17:29:49] [Server thread/INFO]: /kick: Kicks a specified player with a reason.
+[17:29:49] [Server thread/INFO]: /kickall: Kicks all players off the server except the issuer.
+[17:29:49] [Server thread/INFO]: /kill: Kills specified player.
+[17:29:49] [Server thread/INFO]: /kit: Obtains the specified kit or views all available kits.
+[17:29:49] [Server thread/INFO]: /kittycannon: Throw an exploding kitten at your opponent.
+[17:29:49] [Server thread/INFO]: /lightning: The power of Thor. Strike at cursor or player.
+[17:29:49] [Server thread/INFO]: /list: List all online players.
+[17:29:49] [Server thread/INFO]: /mail: Manages inter-player, intra-server mail.
+[17:29:49] [Server thread/INFO]: /me: Describes an action in the context of the player.
+[17:29:49] [Server thread/INFO]: /minecraft:achievement: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:ban: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:ban-ip: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:banlist: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:clear: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:defaultgamemode: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:deop: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:difficulty: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:effect: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:enchant: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:gamemode: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:gamerule: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:give: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:kick: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:kill: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:list: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:me: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:op: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:pardon: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:pardon-ip: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:playsound: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:say: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:scoreboard: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:seed: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:setidletimeout: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:setworldspawn: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:spawnpoint: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:spreadplayers: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:testfor: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:time: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:toggledownfall: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:weather: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:whitelist: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /minecraft:xp: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /more: Fills the item stack in hand to maximum size.
+[17:29:49] [Server thread/INFO]: /motd: Views the Message Of The Day.
+[17:29:49] [Server thread/INFO]: /msg: Sends a private message to the specified player.
+[17:29:49] [Server thread/INFO]: /mute: Mutes or unmutes a player.
+[17:29:49] [Server thread/INFO]: /near: Lists the players near by or around a player.
+[17:29:49] [Server thread/INFO]: /netstat: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /nick: Change your nickname or that of another player.
+[17:29:49] [Server thread/INFO]: /nuke: May death rain upon them.
+[17:29:49] [Server thread/INFO]: /op: Gives the specified player operator status
+[17:29:49] [Server thread/INFO]: /pardon-ip: Allows the specified IP address to use this server
+[17:29:49] [Server thread/INFO]: /pay: Pays another player from your balance.
+[17:29:49] [Server thread/INFO]: /ping: Pong!
+[17:29:49] [Server thread/INFO]: /playsound: Plays a sound to a given player
+[17:29:49] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[17:29:49] [Server thread/INFO]: /potion: Adds custom potion effects to a potion.
+[17:29:49] [Server thread/INFO]: /powertool: Assigns a command to the item in hand.
+[17:29:49] [Server thread/INFO]: /powertooltoggle: Enables or disables all current powertools.
+[17:29:49] [Server thread/INFO]: /ptime: Adjust player's client time. Add @ prefix to fix.
+[17:29:49] [Server thread/INFO]: /pweather: Adjust a player's weather
+[17:29:49] [Server thread/INFO]: /r: Quickly reply to the last player to message you.
+[17:29:49] [Server thread/INFO]: /realname: Displays the username of a user based on nick.
+[17:29:49] [Server thread/INFO]: /recipe: Displays how to craft items.
+[17:29:49] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[17:29:49] [Server thread/INFO]: /remove: Removes entities in your world.
+[17:29:49] [Server thread/INFO]: /repair: Repairs the durability of one or all items.
+[17:29:49] [Server thread/INFO]: /restart: Restarts the server
+[17:29:49] [Server thread/INFO]: /rules: Views the server rules.
+[17:29:49] [Server thread/INFO]: /save-all: Saves the server to disk
+[17:29:49] [Server thread/INFO]: /save-off: Disables server autosaving
+[17:29:49] [Server thread/INFO]: /save-on: Enables server autosaving
+[17:29:49] [Server thread/INFO]: /say: Broadcasts the given message as the sender
+[17:29:49] [Server thread/INFO]: /scoreboard: Scoreboard control
+[17:29:49] [Server thread/INFO]: /seed: Shows the world seed
+[17:29:49] [Server thread/INFO]: /seen: Shows the last logout time of a player.
+[17:29:49] [Server thread/INFO]: /sell: Sells the item currently in your hand.
+[17:29:49] [Server thread/INFO]: /setblock: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /sethome: Set your home to your current location.
+[17:29:49] [Server thread/INFO]: /setidletimeout: Sets the server's idle timeout
+[17:29:49] [Server thread/INFO]: /setjail: Creates a jail where you specified named [jailname].
+[17:29:49] [Server thread/INFO]: /setwarp: Creates a new warp.
+[17:29:49] [Server thread/INFO]: /setworldspawn: Sets a worlds's spawn point. If no coordinates are specified, the player's coordinates will be used.
+[17:29:49] [Server thread/INFO]: /setworth: Set the sell value of an item.
+[17:29:49] [Server thread/INFO]: /skull: Set the owner of a player skull
+[17:29:49] [Server thread/INFO]: /socialspy: Toggles if you can see msg/mail commands in chat.
+[17:29:49] [Server thread/INFO]: /spawner: Change the mob type of a spawner.
+[17:29:49] [Server thread/INFO]: /spawnmob: Spawns a mob.
+[17:29:49] [Server thread/INFO]: /spawnpoint: Sets a player's spawn point
+[17:29:49] [Server thread/INFO]: /speed: Change your speed limits.
+[17:29:49] [Server thread/INFO]: /spreadplayers: Spreads players around a point
+[17:29:49] [Server thread/INFO]: /stop: Stops the server with optional reason
+[17:29:49] [Server thread/INFO]: /sudo: Make another user perform a command.
+[17:29:49] [Server thread/INFO]: /suicide: Causes you to perish.
+[17:29:49] [Server thread/INFO]: /summon: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /tempban: Temporary ban a user.
+[17:29:49] [Server thread/INFO]: /testfor: Tests whether a specifed player is online
+[17:29:49] [Server thread/INFO]: /testforblock: A Mojang provided command.
+[17:29:49] [Server thread/INFO]: /thunder: Enable/disable thunder.
+[17:29:49] [Server thread/INFO]: /time: Display/Change the world time. Defaults to current world.
+[17:29:49] [Server thread/INFO]: /timings: Records timings for all plugin events
+[17:29:49] [Server thread/INFO]: /toggledownfall: Toggles rain on/off on a given world
+[17:29:49] [Server thread/INFO]: /togglejail: Jails/Unjails a player, TPs them to the jail specified.
+[17:29:49] [Server thread/INFO]: /top: Teleport to the highest block at your current position.
+[17:29:49] [Server thread/INFO]: /tp: Teleport to a player.
+[17:29:49] [Server thread/INFO]: /tpa: Request to teleport to the specified player.
+[17:29:49] [Server thread/INFO]: /tpaall: Requests all players online to teleport to you.
+[17:29:49] [Server thread/INFO]: /tpaccept: Accepts a teleport request.
+[17:29:49] [Server thread/INFO]: /tpahere: Request that the specified player teleport to you.
+[17:29:49] [Server thread/INFO]: /tpall: Teleport all online players to another player.
+[17:29:49] [Server thread/INFO]: /tpdeny: Reject a teleport request.
+[17:29:49] [Server thread/INFO]: /tphere: Teleport a player to you.
+[17:29:49] [Server thread/INFO]: /tpo: Teleport override for tptoggle.
+[17:29:49] [Server thread/INFO]: /tpohere: Teleport here override for tptoggle.
+[17:29:49] [Server thread/INFO]: /tppos: Teleport to coordinates.
+[17:29:49] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[17:29:49] [Server thread/INFO]: /tptoggle: Blocks all forms of teleportation.
+[17:29:49] [Server thread/INFO]: /tree: Spawn a tree where you are looking.
+[17:29:49] [Server thread/INFO]: /unban: Unbans the specified player.
+[17:29:49] [Server thread/INFO]: /unbanip: Unbans the specified IP address.
+[17:29:49] [Server thread/INFO]: /unlimited: Allows the unlimited placing of items.
+[17:29:49] [Server thread/INFO]: /vanish: Hide yourself from other players.
+[17:29:49] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[17:29:49] [Server thread/INFO]: /warp: List all warps or warp to the specified location.
+[17:29:49] [Server thread/INFO]: /weather: Sets the weather.
+[17:29:49] [Server thread/INFO]: /whitelist: Manages the list of players allowed to use this server
+[17:29:49] [Server thread/INFO]: /whois: Determine the username behind a nickname.
+[17:29:49] [Server thread/INFO]: /workbench: Opens up a workbench.
+[17:29:49] [Server thread/INFO]: /world: Switch between worlds.
+[17:29:49] [Server thread/INFO]: /worth: Calculates the worth of items in hand or as specified.
