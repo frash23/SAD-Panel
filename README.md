@@ -1,12 +1,13 @@
-SAD Panel - Such Amaz Doge Panel
+SAD Panel
 =======
+A control panel for everynyan~
 
-A control panel made by Doges, for Doges. Doge.
+*Server and client  : frash23*
+
+*WHMCS Intergration : ecasmb*
+
+
+
+A control panel made to satisfy the needs
 -------
-
-This doge will contain a doge that can doge and doge.
-
-Doge your doge today!
-
-
-Doge.
+SAD Panel was made to be more functional, stable and featureful than others available, while being cheaper at the same time.
