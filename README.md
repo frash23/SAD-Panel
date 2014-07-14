@@ -1,10 +1,8 @@
-SAD Panel
-=======
+#SAD Panel
 A control panel for everynyan~
 
-*Server and client  : frash23*
-
-*WHMCS Intergration : ecasmb*
+  *Server and client  : frash23*  
+  *WHMCS Intergration : ecasmb*
 
 
 
