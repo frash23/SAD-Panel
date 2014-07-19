@@ -2,7 +2,7 @@
 A Minecraft server control panel
 
   *Server and client  : frash23*  
-  *WHMCS Intergration : ecasmb*
+  *WHMCS Intergration : maxboone*
 
 
 
