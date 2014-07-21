@@ -31,7 +31,7 @@
 		.menubutton:hover [class^="bglyph-"]	{background-image:url(Bglyphs.png)!important}
 		ul>li			{list-style:none}
 		ul>li:nth-child(odd)	{background:#abc}
-		.badge			{display:inline-block;font-size:8px;height:10px;padding:2px 4px;border-radius:6px;vertical-align:50%;background:yellow}
+		.badge			{display:inline-block;font-size:8px;height:10px;padding:1px 6px 0;border-radius:6px;vertical-align:50%;background:yellow}
 		
 		#consoleinput 	{position:absolute;bottom:10px;width:250px;left:10px}
 		#consolesend 	{position:absolute;bottom:10px;left:270px}
@@ -203,18 +203,19 @@
 								</div> \
 							</div>';
 			var pagePlayers='<div class=box style=width:60%;float:left;> \
-								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle>Currently online</span></div> \
 								<div style:width:100%;padding:20px;> \
 									<ul> \
-										<li><input type=checkbox>Random_player1</li> \
+										<li><input type=checkbox>Random_player1<div class=badge>OP</div></li> \
 										<li><input type=checkbox>Random_player2</li> \
 									</ul> \
 								</div> \
 							</div> \
 							<div class=box style=height:200px;width:38%;float:right> \
-								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
-								<div class=boxcontent> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle>Modify players</span></div> \
+								<div class=boxcontent style=margin:20px> \
 									Do with selected players: \
+									<div class=button>Kick</button> \
 								</div> \
 							</div>';
 			var pagePlugins='<div class=box style=height:500px;width:60%;float:left> \
