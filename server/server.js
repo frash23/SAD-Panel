@@ -8,7 +8,6 @@ d.on('error', function(err) {
 var stdin = process.openStdin(); 
 stdin.setEncoding('utf8');
 stdin.on( 'data', function(key){eval(key);});
-process.chdir('server/');
 
 String.prototype.containsString = function(it) { return this.indexOf(it) !== -1; };
 function removeSubDir(a){
