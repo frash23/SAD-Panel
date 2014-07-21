@@ -166,16 +166,7 @@
 					<div class=main_content>'+c+' \
 					</div>';
 		}
-			var pageConsole = '<div class=box style=height:500px;width:60%;float:left> \
-								<div class=headerbox><div class=boxicon></div><span class=boxtitle>Log</span></div> \
-								<div class=boxcontent id=logupdate> </div> \
-							</div> \
-							<div class=box style=height:200px;width:38%;float:right> \
-								<div class=headerbox><div class=boxicon></div><span class=boxtitle>Console</span></div> \
-								<div class=boxcontent> \
-									<input type=text id=consoleinput><input id=consolesend onclick=sendConsoleReq(document.getElementById("consoleinput").value) type=button value=Send> \
-								</div> \
-							</div>';
+
 			var pageHome = '<div class="stats"> \
 								<div class=button style=height:80px;width:150px;padding-top:35px; onclick=sendConsoleReq("stop");>Shutdown</div> \
 								<div class=button style=height:80px;width:150px;top:90px;padding-top:35px; onclick=sendConsoleReq("stop");>Restart</div> \
@@ -198,7 +189,35 @@
 								<div class=box style=width:30%;left:35.1%;height:500px;></div> \
 								<div class=box style=width:30%;left:69.9%;height:400px;></div> \
 							</div>';
-			var pageFM = '<div class=box style=height:500px;width:60%;float:left> \
+			var pageConsole = '<div class=box style=height:500px;width:60%;float:left> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle>Log</span></div> \
+								<div class=boxcontent id=logupdate> </div> \
+							</div> \
+							<div class=box style=height:200px;width:38%;float:right> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle>Console</span></div> \
+								<div class=boxcontent> \
+									<input type=text id=consoleinput><input id=consolesend onclick=sendConsoleReq(document.getElementById("consoleinput").value) type=button value=Send> \
+								</div> \
+							</div>';
+			var pagePlayers='<div class=box style=height:500px;width:60%;float:left> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								Content \
+							</div> \
+							<div class=box style=height:200px;width:38%;float:right> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								<div class=boxcontent> \
+								</div> \
+							</div>';
+			var pagePlugins='<div class=box style=height:500px;width:60%;float:left> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								Content \
+							</div> \
+							<div class=box style=height:200px;width:38%;float:right> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								<div class=boxcontent> \
+								</div> \
+							</div>';
+			var pageFM='<div class=box style=height:500px;width:60%;float:left> \
 								<div class=headerbox><div class=boxicon></div><span class=boxtitle>Files</span></div> \
 								<div class=boxcontent id=FM> </div> \
 							</div> \
@@ -206,6 +225,33 @@
 								<div class=headerbox><div class=boxicon></div><span class=boxtitle>Actions</span></div> \
 								<div class=boxcontent id=FMF> \
 									 \
+								</div> \
+							</div>';
+			var pageMySQL='<div class=box style=height:500px;width:60%;float:left> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								Content \
+							</div> \
+							<div class=box style=height:200px;width:38%;float:right> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								<div class=boxcontent> \
+								</div> \
+							</div>';
+			var pageBackups='<div class=box style=height:500px;width:60%;float:left> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								Content \
+							</div> \
+							<div class=box style=height:200px;width:38%;float:right> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								<div class=boxcontent> \
+								</div> \
+							</div>';
+			var pageTasks='<div class=box style=height:500px;width:60%;float:left> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								Content \
+							</div> \
+							<div class=box style=height:200px;width:38%;float:right> \
+								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
+								<div class=boxcontent> \
 								</div> \
 							</div>';
 			
