@@ -25,7 +25,8 @@ function checkfType(a,callback){
     callback(stdout);
   });
 }
-  		
+
+var subdir;
 var noStart = false;
 var prc = null;
 var closeListener;
@@ -73,7 +74,7 @@ io.sockets.on('connection',function(socket){
 	checkfType(data['message'],function(resp){
 		if (resp.containsString("directory")===true){
 			subdir = subdir
-	  		exec("ls "+data['message'],function(err,stdout,stderr){console.log(stdout);io.sockets.emit("dirResp",{message:stdout,subDir:data['message']})});
+	  		exec("ls -a "+data['message'],function(err,stdout,stderr){console.log(stdout);io.sockets.emit("dirResp",{message:stdout,subDir:data['message']})});
 	  	}else if(resp.containsString("text")===true){
 	  		console.log("Is text");
 	  		exec("cat "+data['message'],function(err,stdout,stderr){console.log(stdout);io.sockets.emit("fileResp",{message:stdout})});
