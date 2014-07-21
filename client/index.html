@@ -127,11 +127,25 @@
             		
             	}
             });
+            
+	    socketio.on("dirResp", function(data) {
+	    	if(!data){
+            		if(document.getElementById('FMF')){
+            			document.getElementById('FMF').innerHTML=data['message'];
+            		}
+		}
+            });
             socketio.on("fileResp", function(data) {
             	if(document.getElementById('FMF')){
             		document.getElementById('FMF').innerHTML=data['message'];
             	}
             });
+            socketio.on("fileResp", function(data) {
+            	if(document.getElementById('FMF')){
+            		document.getElementById('FMF').innerHTML=data['message'];
+            	}
+            });
+
             function sendConsoleReq(a) {
                   socketio.emit("sendConsoleReq",{message:a});
             }
@@ -200,6 +214,7 @@
 			a.style.color='#fff';
 		}
 	</script>
+	<script src=Bglyphs.js></script>
 	
 </body>
 </html>
