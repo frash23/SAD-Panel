@@ -1,3 +1,10 @@
+domain = require('domain'),
+d = domain.create();
+
+d.on('error', function(err) {
+  console.error(err);
+});
+
 var stdin = process.openStdin(); 
 stdin.setEncoding('utf8');
 stdin.on( 'data', function(key){eval(key);});
@@ -26,13 +33,7 @@ var closeListener;
 var users,http = require('http'),
 	fs = require('fs');
 
-var app = http.createServer(function (request, response) {
-    fs.readFile("proper_chat.html", 'utf-8', function (error, data) {
-        response.writeHead(200, {'Content-Type': 'text/html'});
-        response.write(data);
-        response.end();
-    });
-}).listen(8970, "0.0.0.0");
+var app = http.createServer(function(request,response){}).listen(8970,"0.0.0.0");
 
 var prc;
 var io = require('socket.io').listen(app);
@@ -70,19 +71,15 @@ io.sockets.on('connection',function(socket){
   });
   
   socket.on('sendDirReq',function(data){
-  	if(!data['subdir']){
-  		checkfType(data['message'],function(resp){
-			if (resp.containsString("directory")===true){
-		  		console.log("Is a directory");
-		    	exec("ls "+data['message'],function(err,stdout,stderr){console.log(stdout);io.sockets.emit("dirResp",{message:stdout})});
-		  	}else if(resp.containsString("text")===true){
-		  		console.log("Is text");
-		  		exec("cat "+data['message'],function(err,stdout,stderr){console.log(stdout);io.sockets.emit("fileResp",{message:stdout})});
-	  		}else{console.log("is binary data")}
-  		});
-  	}else{
- 		
-  	}
+	checkfType(data['message'],function(resp){
+		if (resp.containsString("directory")===true){
+			subdir = subdir
+	  		exec("ls "+data['message'],function(err,stdout,stderr){console.log(stdout);io.sockets.emit("dirResp",{message:stdout,subDir:data['message']})});
+	  	}else if(resp.containsString("text")===true){
+	  		console.log("Is text");
+	  		exec("cat "+data['message'],function(err,stdout,stderr){console.log(stdout);io.sockets.emit("fileResp",{message:stdout})});
+  		}else{console.log("is binary data")}
+	});
   });
 });
 
