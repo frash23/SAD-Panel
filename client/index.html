@@ -199,13 +199,19 @@
 									<input type=text id=consoleinput><input id=consolesend onclick=sendConsoleReq(document.getElementById("consoleinput").value) type=button value=Send> \
 								</div> \
 							</div>';
-			var pagePlayers='<div class=box style=height:500px;width:60%;float:left> \
+			var pagePlayers='<div class=box style=width:60%;float:left;> \
 								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
-								Content \
+								<div style:width:100%;padding:20px;> \
+									<ul> \
+										<li><input type=checkbox>Random_player1</li> \
+										<li><input type=checkbox>Random_player2</li> \
+									</ul> \
+								</div> \
 							</div> \
 							<div class=box style=height:200px;width:38%;float:right> \
 								<div class=headerbox><div class=boxicon></div><span class=boxtitle></span></div> \
 								<div class=boxcontent> \
+									Do with selected players: \
 								</div> \
 							</div>';
 			var pagePlugins='<div class=box style=height:500px;width:60%;float:left> \
