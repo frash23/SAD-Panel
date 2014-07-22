@@ -68,7 +68,7 @@
         				}
         				ram=Math.round(data['message'].replace(/^ +/gm, '').split(' ')[1]/10240);
                 		document.getElementById('cpuDial').className = 'orangeProgress-radial orangeProgress-'+Math.round(cpu/5)*5;
-                		document.getElementById('cpuDial').innerHTML = '<div class="overlay">'+cpu+'%</div>';
+                		document.getElementById('cpuDial').innerHTML = '<div class="overlay"><div class=fa-tachometer style=font-size:32px;></div>'+cpu+'%</div>';
                 		document.getElementById('ramDial').className = 'blueProgress-radial blueProgress-'+Math.round(ram/512*100/5)*5;
                 		document.getElementById('ramDial').innerHTML = '<div class="overlay">'+Math.round(ram/512*100)+'%</div>';
                 		ramUsage=Math.round(data['message'].split(" ")[1] / 10240);
