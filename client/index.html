@@ -137,15 +137,15 @@
 		function spawnCircle(b,c,d){
 			var e,f,g,res;
 			if(c>50){f=270;e=-90+(3.6*(c-50));g=b}else{e=90;f=90+(3.6*c);g='#fff'}
-			res='<div style="float:left;margin-right:30px;position:relative;width:115px;height:115px;border-radius:50%;box-shadow:0 0 0 3px #fff,0 0 0 6px '+b+',0 0 0 12px hsl(0,0%,75%);background-image:linear-gradient('+e+'deg,'+g+' 50%,rgba(0,0,0,0) 50%,rgba(0,0,0,0)),linear-gradient('+f+'deg,'+b+' 50%,#fff 50%,#fff)"><div style="position:absolute;width:85px;height:85px;background-color:#fff;border-radius:50%;margin-left:15px;margin-top:15px;text-align:center;font:24px/24px helvetica;">'+d+'</div></div>';
+			res='<div style="float:left;margin-right:30px;position:relative;width:115px;height:115px;border-radius:50%;box-shadow:0 0 0 3px #fff,0 0 0 6px '+b+',0 0 0 12px hsl(0,0%,75%);background-image:linear-gradient('+e+'deg,'+g+' 50%,rgba(0,0,0,0) 50%,rgba(0,0,0,0)),linear-gradient('+f+'deg,'+b+' 50%,#fff 50%,#fff)"><div style="position:absolute;font-weight:bold;width:85px;height:85px;background-color:#fff;border-radius:50%;margin-left:15px;margin-top:15px;text-align:center;font:24px/24px helvetica;">'+d+'</div></div>';
 			return res;
 		}
 
 			var pageHome = '<div class="stats"> \
 							<div class=button style="padding:28px 0;width:145px" onclick=sendConsoleReq("stop") >Shutdown</div> \
 								<div class=button style="top:90px;padding:28px 0;width:145px" onclick=sendConsoleReq("stop");>Restart</div> \
-								<div id=cpuDial style=position:absolute;left:190px;top:13px;color:orange;font-weight:bold;></div> \
-								<div id=ramDial style=position:absolute;left:360px;top:13px;color:blue;font-weight:bold;></div> \
+								<div id=cpuDial style=position:absolute;left:190px;top:13px;color:orange;></div> \
+								<div id=ramDial style=position:absolute;left:360px;top:13px;color:blue;></div> \
 							</div> \
 							<div style=height:160px;width:100%;margin-top:20px;> \
 							<div class=box style=height:200px;width:100%;> \
