@@ -59,7 +59,7 @@
                 	document.getElementById("logupdate").innerHTML=(data['message']+'<hr/>'+document.getElementById("logupdate").innerHTML);
         		}
             });
-        	socketio.on("resUpdate", function(data) {
+        	socketio.on("resUpdate", function(data) {if(!debug){
         		if(data['message'] != ""){
         			if(document.getElementById('ramDial')){
         				cpu=data['message'].replace(/^ +/gm, '').split(' ')[0];
@@ -80,7 +80,7 @@
                 		document.getElementById('ramDial').className = 'blueProgress-radial blueProgress-0';
                 		document.getElementById('ramDial').innerHTML = '<div class="overlay">Na%</div>';
         			}
-        		}
+        		}}
             });
             socketio.on("dirResp", function(data) {
             	if(!data['subdir']){
