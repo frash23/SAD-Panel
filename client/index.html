@@ -62,7 +62,6 @@
         	socketio.on("resUpdate", function(data) {
         		if(data['message'] != ""){
         			if(document.getElementById('ramDial')){
-        				console.log(data);
         				cpu=data['message'].replace(/^ +/gm, '').split(' ')[0];
         				if(cpu>100){
         					cpu=100;
@@ -255,6 +254,7 @@
 		}
 	</script>
 	<script src=Bglyphs.js></script>
+	<link rel=stylesheet type=text/css href=glyphs.css>
 	
 </body>
 </html>
