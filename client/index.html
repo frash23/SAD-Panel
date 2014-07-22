@@ -44,6 +44,11 @@
 	
     <script src="http://pj.gy:8970/socket.io/socket.io.js"></script>
 	<script>
+		var prevHash;
+		setInterval(function(){if(location.hash!=prevHash){prevHash=location.hash;
+			if(location.hash.substr(0,6)=="/page/"){createPage(location.hash.split('/',3)[2],"Server type: Spigot",window["page"+location.hash.split('/',3)[2]]);}
+		}},100);
+
         	var cpuUsage,ramUsage,socketio = io.connect("pj.gy:8970");
         	socketio.on("logUpdate", function(data) {
         		if(document.getElementById('logupdate')){
