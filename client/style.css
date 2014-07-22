@@ -16,7 +16,7 @@ p 					{margin:0;color:#aaa}
 [class^="bglyph-"]			{background-image:url(Bglyphs-dark.png)!important;transition:background-image .4s linear}
 .menubutton:hover [class^="bglyph-"]	{background-image:url(Bglyphs.png)!important}
 ul>li					{list-style:none}
-ul>li:nth-child(odd)			{background:#abc}
+ul>li:nth-child(odd)			{background:#ddd}
 .badge					{display:inline-block;font-size:8px;height:10px;padding:1px 6px 0;border-radius:6px;vertical-align:50%;background:yellow}
 
 #consoleinput		 		{position:absolute;bottom:10px;width:250px;left:10px}

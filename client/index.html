@@ -23,7 +23,7 @@
 		
 		<div class=body_container>
 			<div class="noise main_sidebar">
-				<a class=menubutton style=margin-top:35px href=# onclick="menuSelect(this);createPage('Home','Type of server: Spigot',pageHome);" ><div class=bglyph-house></div> Home</a>
+				<a class=menubutton style=margin-top:35px href=# onclick="menuSelect(this);createPage('Home','Type of server: Spigot',pageHome);" ><div class=bglyph-home></div> Home</a>
 				<a class=menubutton href=# onclick="menuSelect(this);createPage('Console','Type of server: Spigot',pageConsole);" ><div class=bglyph-windowed_list></div>Console</a>
 				<a class=menubutton href=# onclick="menuSelect(this);createPage('Players','Type of server: Spigot',pagePlayers);" ><div class=bglyph-user></div>Players</a>
 				<a class=menubutton href=# onclick="menuSelect(this);createPage('Plugins','Type of server: Spigot',pagePlugins);" ><div class=bglyph-squares_four></div>Plugins</a>
@@ -164,8 +164,8 @@
 								<div class=boxcontent> \
 									<div style:width:100%;padding:20px;> \
 										<ul> \
-											<li><input type=checkbox>Random_player1<div class=badge>OP</div></li> \
-											<li><input type=checkbox>Random_player2</li> \
+											<li><input type=checkbox onclick=this.parentNode.style.background=this.checked===!0?'#bbb':'';>Random_player1<div class=badge>OP</div></li> \
+											<li><input type=checkbox onclick=this.parentNode.style.background=this.checked===!0?'#bbb':'';>Random_player2</li> \
 										</ul> \
 									</div> \
 								</div> \
@@ -201,7 +201,7 @@
 			var pageMySQL='<div class=box style="height:500px;width:75%;margin:0 auto"> \
 							<div class=headerbox><div class=boxicon></div><span class=boxtitle>Mysql database</span></div> \
 								<div class=boxcontent> \
-									<div style=position:absolute;top:50%;left:50%;height:32px;width:200px;margin-left:-100px;margin-top:-16px;text-align:center;>You have no databases! Why not <a href=# onclick=this.parentNode.innerHTML="maxkek">create one?</span></div> \
+									<div style=position:absolute;top:50%;left:50%;height:32px;width:200px;margin-left:-100px;margin-top:-16px;text-align:center;>You have no databases! Why not <a href=# onclick=this.parentNode.innerHTML="[Not implemented yet]">create one?</span></div> \
 								</div> \
 							</div> ';
 			var pageBackups='<div class=box style=height:500px;width:60%;float:left> \
