@@ -68,10 +68,8 @@
         					cpu=100;
         				}
         				ram=Math.round(data['message'].replace(/^ +/gm, '').split(' ')[1]/10240);
-                		document.getElementById('cpuDial').className = 'orangeProgress-radial orangeProgress-'+Math.round(cpu/5)*5;
-                		document.getElementById('cpuDial').innerHTML = '<div class="overlay"><div class=fa-tachometer style=font-size:32px;></div>'+cpu+'%</div>';
-                		document.getElementById('ramDial').className = 'blueProgress-radial blueProgress-'+Math.round(ram/512*100/5)*5;
-                		document.getElementById('ramDial').innerHTML = '<div class="overlay">'+Math.round(ram/512*100)+'%</div>';
+                		//document.getElementById('cpuDial').innerHTML = spawnCircle('blue',40);ze:32px;></div>'+cpu+'%</div>';
+                		document.getElementById('ramDial').innerHTML = spawnCircle('orange',Math.round(ram/512*100),'<div class="fa-tachometer" style="font-size:32px;margin-top: 10px;"></div>'+Math.round(ram/512*100)+'%');
                 		ramUsage=Math.round(data['message'].split(" ")[1] / 10240);
         			}
         		}else{
@@ -135,11 +133,18 @@
 					</div>';
 		}
 
+		function spawnCircle(b,c,d){
+			var e,f,g,res;
+			if(c>50){f=270;e=-90+(3.6*(c-50));g=b}else{e=90;f=c*5.85;g='#fff'}
+			res='<div style="float:left;margin-right:30px;position:relative;width:115px;height:115px;border-radius:50%;box-shadow:0 0 0 3px #fff,0 0 0 6px '+b+',0 0 0 12px hsl(0,0%,75%);background-image:linear-gradient('+e+'deg,'+g+' 50%,rgba(0,0,0,0) 50%,rgba(0,0,0,0)),linear-gradient('+f+'deg,'+b+' 50%,#fff 50%,#fff)"><div style="position:absolute;width:85px;height:85px;background-color:#fff;border-radius:50%;margin-left:15px;margin-top:15px;text-align:center;font:24px/84px helvetica;">'+d+'</div></div>';
+			return res;
+		}
+
 			var pageHome = '<div class="stats"> \
 							<div class=button style="padding:28px 0;width:145px" onclick=sendConsoleReq("stop") >Shutdown</div> \
 								<div class=button style="top:90px;padding:28px 0;width:145px" onclick=sendConsoleReq("stop");>Restart</div> \
-								<div class="orangeProgress-radial orangeProgress-0" id=cpuDial style=left:190px;top:13px;><div class="overlay">Na%</div></div> \
-								<div class="blueProgress-radial blueProgress-0" id=ramDial style=left:210px;top:13px;><div class="overlay">Na%</div></div> \
+								<div class="dbg" id=cpuDial style=left:190px;top:13px;></div> \
+								<div class="dbg" id=ramDial style=left:210px;top:13px;></div> \
 							</div> \
 							<div style=height:160px;width:100%;margin-top:20px;> \
 							<div class=box style=height:200px;width:100%;> \
