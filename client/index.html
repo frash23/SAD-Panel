@@ -59,6 +59,7 @@
                 	document.getElementById("logupdate").innerHTML=(data['message']+'<hr/>'+document.getElementById("logupdate").innerHTML);
         		}
             });
+	    var debug=false;
         	socketio.on("resUpdate", function(data) {if(debug!==true){
         		if(data['message'] != ""){
         			if(document.getElementById('ramDial')){
@@ -141,10 +142,10 @@
 								<div class="blueProgress-radial blueProgress-0" id=ramDial style=left:210px;top:13px;><div class="overlay">Na%</div></div> \
 							</div> \
 							<div style=height:160px;width:100%;margin-top:20px;> \
-							<div class=box style=height:160px;width:100%;> \
+							<div class=box style=height:200px;width:100%;> \
 								<div class=headerbox><div class="fa-cog boxicon"></div><span class=boxtitle>Utilities</span></div> \
 								<div class=boxcontent> \
-									<div class=button style="padding:12px 0;height:47px;box-sizing:initial;width:150px;color:#777"><div class=fa-home style=display:block;font-size:28px;></div>Thing!</div> \
+									<div class=button style="padding:17px 0;height:52px;box-sizing:initial;width:160px;color:#333"><div class=fa-home style=display:block;font-size:34px;></div>Thing!</div> \
 								</div> \
 							</div> \
 							</div> \
