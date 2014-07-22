@@ -46,7 +46,7 @@
 	<script>
 		var prevHash;
 		setInterval(function(){if(location.hash!=prevHash){prevHash=location.hash;
-			if(location.hash.substr(0,6)=="/page/"){createPage(location.hash.split('/',3)[2],"Server type: Spigot",window["page"+location.hash.split('/',3)[2]]);}
+			if(location.hash.substr(0,7)=="#/page/"){createPage(location.hash.split('/',3)[2],"Server type: Spigot",window["page"+location.hash.split('/',3)[2]]);}
 		}},100);
 
         	var cpuUsage,ramUsage,socketio = io.connect("pj.gy:8970");
