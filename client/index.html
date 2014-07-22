@@ -23,14 +23,14 @@
 		
 		<div class=body_container>
 			<div class="noise main_sidebar">
-				<a class=menubutton style=margin-top:35px href=# onclick="menuSelect(this);createPage('Home','Type of server: Spigot',pageHome);" ><div class=bglyph-home></div> Home</a>
-				<a class=menubutton href=# onclick="menuSelect(this);createPage('Console','Type of server: Spigot',pageConsole);" ><div class=bglyph-windowed_list></div>Console</a>
-				<a class=menubutton href=# onclick="menuSelect(this);createPage('Players','Type of server: Spigot',pagePlayers);" ><div class=bglyph-user></div>Players</a>
-				<a class=menubutton href=# onclick="menuSelect(this);createPage('Plugins','Type of server: Spigot',pagePlugins);" ><div class=bglyph-squares_four></div>Plugins</a>
-				<a class=menubutton href=# onclick="menuSelect(this);createPage('File Manager','Type of server: Spigot',pageFM);sendDirReq('.');" ><div class=bglyph-folder_closed></div>File Manager</a>
-				<a class=menubutton href=# onclick="menuSelect(this);createPage('MySQL','Type of server: Spigot',pageMySQL);" ><div class=bglyph-compact_list></div>MySQL</a>
-				<a class=menubutton href=# onclick="menuSelect(this);createPage('Backups','Type of server: Spigot',pageBackups);" ><div class=bglyph-hdd></div>Backups</a>
-				<a class=menubutton href=# onclick="menuSelect(this);createPage('Tasks','Type of server: Spigot',pageTasks);" ><div class=bglyph-tasks></div>Tasks</a>
+				<a class=menubutton style=margin-top:35px href=#/page/Home onclick=menuSelect(this) ><div class=bglyph-home></div> Home</a>
+				<a class=menubutton href=#/page/Console onclick=menuSelect(this) ><div class=bglyph-windowed_list></div>Console</a>
+				<a class=menubutton href=#/page/Players onclick=menuSelect(this) ><div class=bglyph-user></div>Players</a>
+				<a class=menubutton href=#/page/Plugins onclick=menuSelect(this) ><div class=bglyph-squares_four></div>Plugins</a>
+				<a class=menubutton href=#/page/FM onclick=menuSelect(this);setTimeout(function(){sendDirReq('.')},110) ><div class=bglyph-folder_closed></div>File Manager</a>
+				<a class=menubutton href=#/page/MySQL onclick=menuSelect(this) ><div class=bglyph-compact_list></div>MySQL</a>
+				<a class=menubutton href=#/page/Backups onclick=menuSelect(this) ><div class=bglyph-hdd></div>Backups</a>
+				<a class=menubutton href=#/page/Tasks onclick=menuSelect(this) ><div class=bglyph-tasks></div>Tasks</a>
 			</div>
 			
 			<div class=main_body_container style="height:100%;overflow:auto">
