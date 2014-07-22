@@ -69,8 +69,8 @@
         				}
 
         				ram=Math.round(data['message'].replace(/^ +/gm, '').split(' ')[1]/10240);
-                		document.getElementById('cpuDial').innerHTML = cpuCircle=spawnCircle('orange',Math.round(cpu),'<div class="fa-tachometer" style="display:block;font-size:32px;margin-top:10px;"></div>'+Math.round(cpu)+'%</div>');
-                		document.getElementById('ramDial').innerHTML = ramCircle=spawnCircle('orange',Math.round(cpu),'<div class="fa-tachometer" style="font-size:32px;margin-top:10px;"></div>'+Math.round(cpu)+'%</div>');
+                		document.getElementById('cpuDial').innerHTML = cpuCircle=spawnCircle('orange',Math.round(cpu),'<div class="fa-tachometer" style="margin-top:10px;display:block;font-size:32px;margin-top:10px;"></div>'+Math.round(cpu)+'%</div>');
+                		document.getElementById('ramDial').innerHTML = ramCircle=spawnCircle('blue',Math.round(ram/512*100),'<div class="fa-tachometer" style="margin-top:10px;display:block;font-size:32px;margin-top:10px;"></div>'+Math.round(ram/512*100)+'%</div>');
                 		ramUsage=Math.round(data['message'].split(" ")[1] / 10240);
         			}
         		}else{
