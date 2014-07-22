@@ -13,8 +13,7 @@ a					{color:#999;transition:color .25s linear;text-decoration:none}
 a:hover 				{color:#fff}
 hr 					{height:2px;background:#e0dfdf;border:0;border-bottom:1px solid #fff;width:100%;margin:3px 0}
 p 					{margin:0;color:#aaa}
-[class^="bglyph-"]			{background-image:url(Bglyphs-dark.png)!important;transition:background-image .4s linear}
-.menubutton:hover [class^="bglyph-"]	{background-image:url(Bglyphs.png)!important}
+.menubutton [class^="fa-"]		{margin-right:8px}
 ul>li					{list-style:none}
 ul>li:nth-child(odd)			{background:#ddd}
 .badge					{display:inline-block;font-size:8px;height:10px;padding:1px 6px 0;border-radius:6px;vertical-align:50%;background:yellow}
