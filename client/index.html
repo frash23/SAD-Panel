@@ -67,9 +67,10 @@
         				if(cpu>100){
         					cpu=100;
         				}
+
         				ram=Math.round(data['message'].replace(/^ +/gm, '').split(' ')[1]/10240);
-                		//document.getElementById('cpuDial').innerHTML = ''+spawnCircle('blue',40);ze:32px;></div>'+cpu+'%</div>';
-                		document.getElementById('ramDial').innerHTML = '<div id=ramDial style=left:210px;top:13px;>'+spawnCircle('orange',Math.round(ram/512*100),'<div class="fa-tachometer" style="font-size:32px;margin-top: 10px;"></div>'+Math.round(ram/512*100)+'%</div>');
+                		document.getElementById('cpuDial').innerHTML = cpuCircle=spawnCircle('orange',Math.round(cpu),'<div class="fa-tachometer" style="font-size:32px;margin-top:10px;"></div>'+Math.round(cpu)+'%</div>');
+                		document.getElementById('ramDial').innerHTML = ramCircle=spawnCircle('orange',Math.round(cpu),'<div class="fa-tachometer" style="font-size:32px;margin-top:10px;"></div>'+Math.round(cpu)+'%</div>');
                 		ramUsage=Math.round(data['message'].split(" ")[1] / 10240);
         			}
         		}else{
@@ -143,8 +144,8 @@
 			var pageHome = '<div class="stats"> \
 							<div class=button style="padding:28px 0;width:145px" onclick=sendConsoleReq("stop") >Shutdown</div> \
 								<div class=button style="top:90px;padding:28px 0;width:145px" onclick=sendConsoleReq("stop");>Restart</div> \
-								<div class="dbg" id=cpuDial style=left:190px;top:13px;></div> \
-								<div class="dbg" id=ramDial style=left:210px;top:13px;></div> \
+								<div id=cpuDial style=left:190px;top:13px;></div> \
+								<div id=ramDial style=left:210px;top:13px;></div> \
 							</div> \
 							<div style=height:160px;width:100%;margin-top:20px;> \
 							<div class=box style=height:200px;width:100%;> \
