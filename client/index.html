@@ -59,7 +59,7 @@
                 	document.getElementById("logupdate").innerHTML=(data['message']+'<hr/>'+document.getElementById("logupdate").innerHTML);
         		}
             });
-        	socketio.on("resUpdate", function(data) {if(!debug){
+        	socketio.on("resUpdate", function(data) {if(debug!==true){
         		if(data['message'] != ""){
         			if(document.getElementById('ramDial')){
         				cpu=data['message'].replace(/^ +/gm, '').split(' ')[0];
