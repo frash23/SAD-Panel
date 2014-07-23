@@ -39,11 +39,4 @@ ul>li:nth-child(odd)			{background:#ddd}
 
 
 /* Random stuff */
-
-@font-face {
-  font-family: 'Didact Gothic';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Didact Gothic'), local('DidactGothic'), url(http://fonts.gstatic.com/s/didactgothic/v6/v8_72sD3DYMKyM0dn3LtWmYKogTrBb-Yb2DFwx30qLM.woff2) format('woff2'), url(http://fonts.gstatic.com/s/didactgothic/v6/v8_72sD3DYMKyM0dn3LtWp_RtrTXGeaL_Dia6_H9gNs.woff) format('woff');
-}
 p{margin-bottom:14px}h1,h2,h3,h4,h5,h6{margin-top:0;color:#444}h1,h2,h3{line-height:32px}h1{font-size:21px}h2{font-size:18px}h3{font-size:15px}h4{font-size:14px}h5{font-size:13px}h6{font-size:12px}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#444}h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{color:#555}.highlight{color:#8ecd44}.page-description{font-weight:400;text-align:center;padding-bottom:40px;margin-bottom:40px;border-bottom:1px solid #ddd;font-size:24px;line-height:1.8}.headline{border-top:1px solid #ddd;border-bottom:1px solid #ddd;font-size:1.4em;padding-top:25px;padding-bottom:25px;margin-bottom:10px;text-align:center;line-height:1.8;background:#fcfcfc url(../../img/content_bg.jpg) repeat left top}.underline{display:inline-block;*display:inline;*zoom:1;border-bottom:2px solid #8ecd44}a{-webkit-transition:color .1s ease-in-out;-moz-transition:color .1s ease-in-out;transition:color .1s ease-in-out}a:focus{outline:none}a:hover{text-decoration:none}.underline-heading{border-bottom:1px solid #ddd;margin-top:0;margin-bottom:15px}.underline-heading h1,.underline-heading h2,.underline-heading h3,.underline-heading h4,.underline-heading h5,.underline-heading h6{border-bottom:3px solid #8ecd44;display:inline-block;margin-bottom:-2px;*display:inline;*zoom:1}blockquote{border:none;position:relative;background-color:#eee;padding:32px 32px 32px 64px}blockquote small{font-size:13px}blockquote:before{content:"\02EE";color:#444;text-align:center;font-size:100px;position:absolute;left:20px;top:50px}.error-page{text-align:center;margin-top:100px}.error-page .form{margin-top:40px}.error-page .error-code{font-size:180px;line-height:1.2;color:#333;color:rgba(51,51,51,0.85);text-shadow:1px 4px 6px #fff,0 0 0 #000,1px 4px 6px #fff}@media only screen and (max-width: 480px){.page-description{font-size:19px}}
