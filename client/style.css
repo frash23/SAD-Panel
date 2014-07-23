@@ -40,7 +40,7 @@ ul>li:nth-child(odd)			{background:#ddd}
 
 /* Random stuff */
 
-nt-face {
+@font-face {
   font-family: 'Didact Gothic';
   font-style: normal;
   font-weight: 400;
