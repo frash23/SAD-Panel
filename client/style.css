@@ -24,8 +24,8 @@ ul>li:nth-child(odd)			{background:#ddd}
     .customer_info 			{float:right;height:41px;padding:20.5px;line-height:0}
 
 .body_container 			{width:100%;height:calc(100% - 43px);position:relative}
-  .main_sidebar 			{float:left;width:170px;min-height:100%;background-color:#000;box-shadow:inset 1px 4px 9px -6px #111;border-right:4px solid #111;}
-  .main_body 				{min-height:100%;padding:40px;width:100%;/*max-width:1110px;min-width:1110px;*/margin:0 auto}
+  .main_sidebar 			{float:left;width:200px;min-height:100%;background-color:#000;box-shadow:inset 1px 4px 9px -6px #111;border-right:4px solid #111;}
+  .main_body 				{min-height:100%;padding:40px;max-width:1110px;min-width:1110px;margin:0 auto}
     .main_header 			{margin-bottom:40px}
       .main_header p  			{margin:10px 20px 0 20px}
     .main_content 			{}
