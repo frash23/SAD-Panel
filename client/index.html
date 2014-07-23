@@ -72,9 +72,9 @@
         				ram=Math.round(data['message'].replace(/^ +/gm, '').split(' ')[1]/10240);
                 		document.getElementById('cpuDial').innerHTML = cpuCircle=spawnCircle('orange',Math.round(cpu),'<div class="fa-tachometer" style="margin-top:12px;display:block;font-size:32px;margin-top:10px;"></div>'+Math.round(cpu)+'%','CPU Consumption');
                 		document.getElementById('ramDial').innerHTML = ramCircle=spawnCircle('blue',Math.round(ram/512*100),'<div class="fa-exchange" style="margin-top:12px;display:block;font-size:32px;margin-top:10px;"></div>'+Math.round(ram/512*100)+'%','RAM Consumption');
-                		document.getElementById('ramDial').innerHTML = ramCircle=spawnCircle('purple',24,'<div class="fa-exchange" style="margin-top:12px;display:block;font-size:32px;margin-top:10px;"></div>'+58+'%','Placeholder1');
-                		document.getElementById('ramDial').innerHTML = ramCircle=spawnCircle('lime',78,'<div class="fa-exchange" style="margin-top:12px;display:block;font-size:32px;margin-top:10px;"></div>____','Placeholder2');
-                		document.getElementById('ramDial').innerHTML = ramCircle=spawnCircle('yellow',98,'<div class="fa-exchange" style="margin-top:12px;display:block;font-size:32px;margin-top:10px;"></div>____','Placeholder3');
+                		//document.getElementById('ramDial').innerHTML = ramCircle=spawnCircle('purple',24,'<div class="fa-exchange" style="margin-top:12px;display:block;font-size:32px;margin-top:10px;"></div>'+58+'%','Placeholder1');
+                		//document.getElementById('ramDial').innerHTML = ramCircle=spawnCircle('lime',78,'<div class="fa-exchange" style="margin-top:12px;display:block;font-size:32px;margin-top:10px;"></div>____','Placeholder2');
+                		//document.getElementById('ramDial').innerHTML = ramCircle=spawnCircle('yellow',98,'<div class="fa-exchange" style="margin-top:12px;display:block;font-size:32px;margin-top:10px;"></div>____','Placeholder3');
                 		ramUsage=Math.round(data['message'].split(" ")[1] / 10240);
         			}
         		}else{
