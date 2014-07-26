@@ -148,7 +148,7 @@
 			var pageHome='<div class=stats> \
 							<div class=button style="padding:28px 0;width:145px" onclick=sendConsoleReq("stop") >Shutdown</div> \
 								<div class=button style="top:90px;padding:28px 0;width:145px" onclick=sendConsoleReq("stop");>Restart</div> \
-								<div id=cpuDial style=position:absolute;left:190px;top:13px;color:#fa5833;></div> \
+								<div id=cpuDial style=position:absolute;left:190px;top:13px;color:#fa5833;>'+spawnCircle('#fa5833',Math.round(cpu),'<div class="fa-tachometer" style="margin-top:12px;display:block;font-size:32px;margin-top:10px;"></div>'+Math.round(cpu)+'%','CPU Consumption')+'</div> \
 								<div id=ramDial style=position:absolute;left:360px;top:13px;color:#2fabe9;></div> \
 								<div id=Plc1Dial style=position:absolute;left:530px;top:13px;color:#e42b75;></div> \
 								<div id=Plc2Dial style=position:absolute;left:700px;top:13px;color:#b9e672;></div> \
