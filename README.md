@@ -14,9 +14,9 @@ A Minecraft server control panel
   
   Current features include:
   
-  * Large penises
-  * Doge sounds on every mouseclick
-  * 10% transparency overlay image of Doge on every HTML object
+  * Home page with monitoring of online players, CPU usage (that makes sense!) and RAM usage.
+  * Intelliget cluster system, creates new serverse on the machine with least load.
+  * Lots of features, will write them down another time.
 
 
 
